@@ -1,5 +1,5 @@
 def meeting_rooms(intervals):
-    conference_room = [0] * 10001
+    conference_room = [0] * 10001 
     for start, end in intervals:
         conference_room[start] += 1
         conference_room[end] -= 1
